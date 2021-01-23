@@ -1,0 +1,220 @@
+<html>
+
+<head>
+	<!---Title--->
+	<title>Home Page</title>
+	
+	<!---Bootstrap--->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<script src="https://kit.fontawesome.com/8f015284da.js" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	
+	<!---EXTERNAL CSS--->
+	<link rel="stylesheet" href="style.css">
+	
+	<!---GOOGLE FONTS--->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+
+<!------------------------------------------NAVBAR------------------------------------------>
+	<section id="title">
+		<div class="container-fluid">
+			<div class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+				<img class="logo-job" src="images/logo.jpg" alt="logo">
+				<a class="navbar-brand" href=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      			</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<ul class="navbar-nav justify-content-center cen">
+						<li class="navbar-item">
+							<a class="nav-link" href="">HOME</a>
+						</li>
+						<li class="navbar-item">
+							<a class="nav-link" href="">JOBS</a>
+						</li>
+						<li class="navbar-item">
+							<a class="nav-link" href="">BLOG</a>
+						</li>
+						<li class="navbar-item">
+							<a class="nav-link" href="">INTERNSHIPS</a>
+						</li>
+						<li class="navbar-item">
+							<a class="nav-link" href="">CONTACT</a>
+						</li>
+					</ul>
+				<button class="btn btn-dark btn-md download-buton ml-auto" type="button" onclick="document.location='form.php'">SIGN UP</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!-----------------------------------------SEARCH---------------------------------------->
+	<section id="search-bar">
+
+		<nav class="navbar navbar-light navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<center>
+			<form class="d-flex">
+				<label>Keyword</label>
+				<input class="form-control me-2 right-space" type="search" placeholder="Search" aria-label="Search">
+				<label>City</label>
+				<input class="form-control me-2 right-space" type="search" placeholder="Search" aria-label="Search">
+				<label>Industry</label>
+				<input class="form-control me-2 right-space" type="search" placeholder="Search" aria-label="Search">
+	
+				<button class="btn btn-outline-success size" type="submit">Search</button>
+			</form>
+			</center>
+		</div>
+		</nav>
+		
+	</section>
+
+<!-------------------------------------JOB CARDS----------------------------------------->
+	<section id="job-cards">
+	
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="container">
+				<div class="card mx-auto">
+					<div class="row">
+						<div class="logo ml-3 mb-3"><img src="images/google.png"></div>
+						<div class="header right"><i class="fas fa-ellipsis-h"></i></div>
+					</div>
+					<div class="card-title">
+						<p class="heading">Web Development&nbsp;<i class="far fa-compass"></i></p>
+					</div>
+					<p class="text-muted">You will be responsible for the Web Development<br>for both ends.Understand Development phase,<br>User designs, new Technologies, etc...</p>
+					<p class="address">Microsoft Corporation, One Microsoft Way,<br>Redmond, WA 98052-6399<br>USA</p>
+					<div class="row btnrow my-4">
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-success btn-sm" style="background: #00ff002b;">Full Time</button></div>
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-primary btn-sm" style="background: #007bff33;">Min. 1 year</button></div>
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-danger btn-sm" style="background: #dc35452e;">Director</button></div>
+					</div>
+					<div class="mutual"><i class="fas fa-users"></i>&nbsp;&nbsp;<span>5 Friends work here</span></div>
+					<div class="row btnsubmit mt-4">
+						<div class="col-md-6 col-6"> <button type="button" class="btn btn-primary btn-lg"><span>Apply Now</span></button> </div>
+						<div class="col-md-6 col-6"> <button type="button" class="btn btn-dark btn-lg"><span>Message</span></button> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4">
+			<div class="container">
+				<div class="card mx-auto">
+					<div class="row">
+						<div class="logo ml-3 mb-3"><img src="images/facebook.jpg"></div>
+						<div class="header right"><i class="fas fa-ellipsis-h"></i></div>
+					</div>
+					<div class="card-title">
+						<p class="heading">Android App Development&nbsp;<i class="far fa-compass"></i></p>
+					</div>
+					<p class="text-muted">You will be responsible for the App designing<br>for multi device.Understand basic design,<br>User journey, Ideation and Wireframing, etc...</p>
+					<p class="address">New York, NY,United States,<br>770 Broadway</p>
+					<div class="row btnrow my-4">
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-success btn-sm" style="background: #00ff002b;">Full Time</button></div>
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-primary btn-sm" style="background: #007bff33;">Min. 1 year</button></div>
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-danger btn-sm" style="background: #dc35452e;">Director</button></div>
+					</div>
+					<div class="mutual"><i class="fas fa-users"></i>&nbsp;&nbsp;<span>1 Friends work here</span></div>
+					<div class="row btnsubmit mt-4">
+						<div class="col-md-6 col-6"> <button type="button" class="btn btn-primary btn-lg"><span>Apply Now</span></button> </div>
+						<div class="col-md-6 col-6"> <button type="button" class="btn btn-dark btn-lg"><span>Message</span></button> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4">
+			<div class="container">
+				<div class="card mx-auto">
+					<div class="row">
+						<div class="logo ml-3 mb-3"><img src="images/microsoft.jpg"></div>
+						<div class="header right"><i class="fas fa-ellipsis-h"></i></div>
+					</div>
+					<div class="card-title">
+						<p class="heading">Lead Product Design&nbsp;<i class="far fa-compass"></i></p>
+					</div>
+					<p class="text-muted">You will be responsible for the visual design<br>for multi device.Understand basic Development phase,<br>User journey, Ideation and Wireframing, Interested Candidates Apply.</p>
+					<p class="address">Mountain View, 1600 Amphitheatre Parkway<br>Mountain View, CA 94043<br>United States</p>
+					<div class="row btnrow my-4">
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-success btn-sm" style="background: #00ff002b;">Full Time</button></div>
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-primary btn-sm" style="background: #007bff33;">Min. 1 year</button></div>
+						<div class="col-4 col-md-3"><button type="button" class="btn btn-outline-danger btn-sm" style="background: #dc35452e;">Director</button></div>
+					</div>
+					<div class="mutual"><i class="fas fa-users"></i>&nbsp;&nbsp;<span>3 Friends work here</span></div>
+					<div class="row btnsubmit mt-4">
+						<div class="col-md-6 col-6"> <button type="button" class="btn btn-primary btn-lg"><span>Apply Now</span></button> </div>
+						<div class="col-md-6 col-6"> <button type="button" class="btn btn-dark btn-lg"><span>Message</span></button> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	</section>
+	
+	<!------------------------------------Footer --------------------------------------------------->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">Jobs Finder Corporation</a></u></p>
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">JobsDirectoryLimited</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+	
+</body>
+
+</html>
